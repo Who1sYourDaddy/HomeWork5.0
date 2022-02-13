@@ -23,11 +23,15 @@ public class Main {
         }
         System.out.println( "Task 3" );
 
+        int year = 2022;
+        int startCycle = year - 200;
+        int endYear = year + 100;
+        for (int a = startCycle; a < endYear; a++) {
 
-            for (int period = 0; period <= 2121; period += 79) ;  {
-
-
-            System.out.println( + period + );
+            if (a % 79 == 0) {
+                    System.out.println(a);
+            }
         }
     }
 }
+
