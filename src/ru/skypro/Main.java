@@ -29,7 +29,7 @@ public class Main {
         for (int a = startCycle; a < endYear; a++) {
 
             if (a % 79 == 0) {
-                    System.out.println(a);
+                    System.out.println( a );
             }
         }
     }
